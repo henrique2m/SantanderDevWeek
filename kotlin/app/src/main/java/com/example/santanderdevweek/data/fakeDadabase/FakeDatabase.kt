@@ -8,11 +8,11 @@ class FakeDatabase {
 
     fun getLocalData() : Account {
         val client = Client("Henrique")
-        val card = Card("62234531")
+        val card = Card("0000")
 
         return Account(
-            "445567-6",
-            "6552-4",
+            "Cc 0109795-4",
+            "2021",
             "R$ 3000,00",
             "R$ 1000,00",
             client,
